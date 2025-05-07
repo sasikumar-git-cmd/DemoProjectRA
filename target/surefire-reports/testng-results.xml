@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-30T23:20:41 PDT" name="Suite" finished-at="2025-04-30T23:20:46 PDT" duration-ms="5051">
+  <suite started-at="2025-05-04T13:27:16 PDT" name="Suite" finished-at="2025-05-04T13:27:21 PDT" duration-ms="5822">
     <groups>
     </groups>
-    <test started-at="2025-04-30T23:20:41 PDT" name="chome1" finished-at="2025-04-30T23:20:46 PDT" duration-ms="5051">
+    <test started-at="2025-05-04T13:27:16 PDT" name="chome1" finished-at="2025-05-04T13:27:21 PDT" duration-ms="5822">
       <class name="seleniumPractice.Testing">
-        <test-method is-config="true" signature="browseInitialization(java.lang.String,java.lang.String)[pri:0, instance:seleniumPractice.Testing@5119fb47]" started-at="2025-04-30T23:20:41 PDT" name="browseInitialization" finished-at="2025-04-30T23:20:46 PDT" duration-ms="5032" status="PASS">
+        <test-method is-config="true" signature="browseInitialization(java.lang.String,java.lang.String)[pri:0, instance:seleniumPractice.Testing@5119fb47]" started-at="2025-05-04T13:27:16 PDT" name="browseInitialization" finished-at="2025-05-04T13:27:21 PDT" duration-ms="5803" status="PASS">
           <params>
             <param index="0">
               <value>

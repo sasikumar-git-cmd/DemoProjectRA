@@ -4,7 +4,8 @@
   <artifactId>DemoProjectRA</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <build>
-    <sourceDirectory>src</sourceDirectory>
+    <sourceDirectory>src/test/java</sourceDirectory>
+   
     <plugins>
 		<plugin>
   <groupId>org.apache.maven.plugins</groupId>
@@ -26,7 +27,7 @@
   <version>3.5.3</version>
   <configuration>
 	  <suiteXmlFiles>
-		  <suiteXmlFile>testng.xml</suiteXmlFile>
+		  <suiteXmlFile>SeleniumGridDocker.xml</suiteXmlFile>
 	  </suiteXmlFiles>
   </configuration>
 </plugin>
@@ -65,7 +66,7 @@
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.10.0</version>
+    <version>4.22.0</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
@@ -73,6 +74,33 @@
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-databind</artifactId>
     <version>2.15.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.23.1</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.23.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.19.0</version>
 </dependency>
 
 

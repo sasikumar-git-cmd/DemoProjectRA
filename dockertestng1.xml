@@ -13,7 +13,7 @@
 	  <parameter name="os" value="Linux"></parameter>
 	  <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="seleniumPractice.Testing"/>
+     <class name="testCases.SeleniumGridDockerTesting"/>
     </classes>
   </test>
   
@@ -21,7 +21,7 @@
 	  <parameter name="os" value="Linux"></parameter>
 	  <parameter name="browser" value="firefox"></parameter>
     <classes>
-      <class name="seleniumPractice.Testing"/>
+     <class name="testCases.SeleniumGridDockerTesting"/>
     </classes>
   </test>
   

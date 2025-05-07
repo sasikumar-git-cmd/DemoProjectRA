@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-30T20:11:54 PDT" name="Suite" finished-at="2025-04-30T20:12:06 PDT" duration-ms="12308">
+  <suite started-at="2025-05-07T11:55:38 PDT" name="Suite" finished-at="2025-05-07T11:55:55 PDT" duration-ms="16769">
     <groups>
     </groups>
-    <test started-at="2025-04-30T20:11:54 PDT" name="Testing Linux ch" finished-at="2025-04-30T20:12:01 PDT" duration-ms="6863">
-      <class name="seleniumPractice.Testing">
-        <test-method is-config="true" signature="browseInitialization(java.lang.String,java.lang.String)[pri:0, instance:seleniumPractice.Testing@26d9b808]" started-at="2025-04-30T20:11:54 PDT" name="browseInitialization" finished-at="2025-04-30T20:12:01 PDT" duration-ms="6825" status="PASS">
+    <test started-at="2025-05-07T11:55:38 PDT" name="Testing Linux ch" finished-at="2025-05-07T11:55:46 PDT" duration-ms="8434">
+      <class name="testCases.SeleniumGridDockerTesting">
+        <test-method is-config="true" signature="browseInitialization(java.lang.String,java.lang.String)[pri:0, instance:testCases.SeleniumGridDockerTesting@70e9c95d]" started-at="2025-05-07T11:55:38 PDT" name="browseInitialization" finished-at="2025-05-07T11:55:46 PDT" duration-ms="8391" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browseInitialization -->
-      </class> <!-- seleniumPractice.Testing -->
+      </class> <!-- testCases.SeleniumGridDockerTesting -->
     </test> <!-- Testing Linux ch -->
-    <test started-at="2025-04-30T20:11:54 PDT" name="Testing Linux fi" finished-at="2025-04-30T20:12:06 PDT" duration-ms="12308">
-      <class name="seleniumPractice.Testing">
-        <test-method is-config="true" signature="browseInitialization(java.lang.String,java.lang.String)[pri:0, instance:seleniumPractice.Testing@28261e8e]" started-at="2025-04-30T20:11:54 PDT" name="browseInitialization" finished-at="2025-04-30T20:12:06 PDT" duration-ms="12283" status="PASS">
+    <test started-at="2025-05-07T11:55:38 PDT" name="Testing Linux fi" finished-at="2025-05-07T11:55:55 PDT" duration-ms="16769">
+      <class name="testCases.SeleniumGridDockerTesting">
+        <test-method is-config="true" signature="browseInitialization(java.lang.String,java.lang.String)[pri:0, instance:testCases.SeleniumGridDockerTesting@470734c3]" started-at="2025-05-07T11:55:38 PDT" name="browseInitialization" finished-at="2025-05-07T11:55:55 PDT" duration-ms="16738" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browseInitialization -->
-      </class> <!-- seleniumPractice.Testing -->
+      </class> <!-- testCases.SeleniumGridDockerTesting -->
     </test> <!-- Testing Linux fi -->
   </suite> <!-- Suite -->
 </testng-results>
