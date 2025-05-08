@@ -50,12 +50,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Sasikumar\eclipse-workspace\DemoProjectRA\dockertestng1.xml</span>
+                    <span>C:\Users\Sasikumar\eclipse-workspace\DemoProjectRA\Browserstack_Jenkins_testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">0 methods,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Browserstack_Jenkins" class="method navigator-link" hash-for-method="validateUI">validateUI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -104,30 +118,36 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Browserstack_Jenkins</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUI">
+                  </a> <!-- validateUI -->
+                  <span class="method-name">validateUI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Sasikumar\eclipse-workspace\DemoProjectRA\dockertestng1.xml</span>
+            <span class="header-content">C:\Users\Sasikumar\eclipse-workspace\DemoProjectRA\Browserstack_Jenkins_testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Testing Linux ch&quot;&gt;
-    &lt;parameter name=&quot;os&quot; value=&quot;Linux&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.SeleniumGridDockerTesting&quot;/&gt;
+      &lt;class name=&quot;testCases.Browserstack_Jenkins&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Testing Linux ch --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Testing Linux fi&quot;&gt;
-    &lt;parameter name=&quot;os&quot; value=&quot;Linux&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testCases.SeleniumGridDockerTesting&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Testing Linux fi --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -139,10 +159,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Testing Linux ch (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Testing Linux fi (1 class)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -168,12 +185,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(0);
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateUI')
+data.setCell(0, 2, 'testCases.Browserstack_Jenkins')
+data.setCell(0, 3, 1566);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -199,15 +220,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.SeleniumGridDockerTesting</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">browseInitialization(Linux, firefox)</span>
+              <div class="chronological-class-name">testCases.Browserstack_Jenkins</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initial_Cap</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-test before">
-                <span class="method-name">browseInitialization(Linux, chrome)</span>
-                <span class="method-start">1 ms</span>
-              </div> <!-- configuration-test before -->
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateUI</span>
+                <span class="method-start">9365 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearBrowser</span>
+                <span class="method-start">10948 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

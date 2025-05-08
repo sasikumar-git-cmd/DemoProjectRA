@@ -27,7 +27,7 @@
   <version>3.5.3</version>
   <configuration>
 	  <suiteXmlFiles>
-		  <suiteXmlFile>dockertestng1.xml</suiteXmlFile>
+		  <suiteXmlFile>Browserstack_Jenkins_testng.xml</suiteXmlFile>
 	  </suiteXmlFiles>
   </configuration>
 </plugin>
